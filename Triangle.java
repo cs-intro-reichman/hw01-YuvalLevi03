@@ -5,14 +5,14 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-	  int a = Integer.parseInt(args[0]);
-	  int b = Integer.parseInt(args[1]);
-	  int c = Integer.parseInt(args[2]);
-	  boolean isTriangle;
-          isTriangle = ((a + b > c) && (a + c > b) && ( b + c > a));
+	        int a = Integer.parseInt(args[0]);
+	        int b = Integer.parseInt(args[1]);
+	        int c = Integer.parseInt(args[2]);
+	        boolean isTriangle;
+                isTriangle = ((a + b > c) && (a + c > b) && (b + c > a));
 
-          System.out.print(a + ", " + b + ", " + c + ": "); 
-          if (isTriangle) System.out.println("true");
-          else            System.out.println("false");	
+                System.out.print(a + ", " + b + ", " + c + ": "); 
+                if (isTriangle) System.out.println("true");
+                else            System.out.println("false");	
 	}
 }
