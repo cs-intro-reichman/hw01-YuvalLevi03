@@ -11,7 +11,7 @@ public class Triangle {
 	        boolean isTriangle;
                 isTriangle = ((a + b > c) && (a + c > b) && (b + c > a));
 
-                System.out.print(a + ", " + b + ", " + c + ": ",isTriangle); 
+                System.out.print(a + ", " + b + ", " + c + ": " + isTriangle); 
         	
 	}
 }
